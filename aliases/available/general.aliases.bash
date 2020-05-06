@@ -47,6 +47,10 @@ then
   export GREP_COLOR='1;33'
 fi
 
+shopt -s cdspell
+shopt -s autocd
+shopt -s nocaseglob
+
 if which gshuf &> /dev/null
 then
   alias shuf=gshuf
@@ -120,7 +124,10 @@ alias x="extract"
 
 # sudo editors
 alias svi="sudo vim"
-alias snano="sudo nano"
+
+#shopt
+shopt -s autocd
+shopt -s cdspell
 
 # export 
 #该行使当执行某一未安装的程序时，可以便捷安装
