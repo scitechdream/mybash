@@ -2,7 +2,7 @@ cite 'about-alias'
 about-alias 'common petalinux abbreviations'
 
 # Aliases
-alias sptl='source /opt/pkg/petalinux/2018.3/settings.sh'
+alias sptl='source /opt/pkg/petalinux/2019.2/settings.sh'
 alias pcpz='petalinux-create -t project --template zynq -n'
 alias pcpsbsp='petalinux-create -t project -s'
 alias plcf='petalinux-config'

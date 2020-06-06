@@ -22,7 +22,7 @@ alias lart='ls -1Fcart'
 alias lrt='ls -1Fcrt'
 alias lm='ls -alhF|less'
 alias _="sudo"
-
+alias vi="vim"
 alias ag='alias | grep'
 alias df="df -hT"
 alias du="du -h"

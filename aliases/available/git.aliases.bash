@@ -71,8 +71,6 @@ alias gftv='git fetch --all --prune --tags --verbose'
 alias gfr='git fetch && git rebase'
 alias gus='git reset HEAD'
 alias gpristine='git reset --hard && git clean -dfx'
-alias gs='git status'
-alias gss='git status -s'
 alias gsu='git submodule update --init --recursive'
 alias gl='git pull'
 alias glum='git pull upstream master'
@@ -136,6 +134,7 @@ alias gwc="git whatchanged"
 alias gnew="git log HEAD@{1}..HEAD@{0}"
 # Add uncommitted and unstaged changes to the last commit
 alias ggui="git gui"
+alias ggrep='git grep'
 
 alias gsb='git status -sb'
 alias gsd='git svn dcommit'
@@ -145,6 +144,7 @@ alias gsps='git show --pretty=short --show-signature'
 alias gsr='git svn rebase'
 alias gss='git status -s'
 alias gst='git status'
+alias gps='git -p status'
 
 alias gstaa='git stash apply'
 alias gstc='git stash clear'
